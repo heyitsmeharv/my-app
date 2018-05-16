@@ -54,9 +54,28 @@
   },
   "reactToolbox": {
     "include": [
+      "APP_BAR",
+      "AVATAR",
       "BUTTON",
+      "CARD",
+      "CHECKBOX",
       "DATE_PICKER",
-      "APP_BAR"
+      "DIALOG",
+      "DRAWER",
+      "DROPDOWN",
+      "FONT_ICON",
+      "INPUT",
+      "LAYOUT",
+      "LINK",
+      "LIST",
+      "MENU",
+      "NAVIGATION",
+      "PROGRESS_BAR",
+      "RADIO_BUTTONS",
+      "RIPPLE",
+      "TABS",
+      "TOOLTIP",
+      "TIME_PICKER"
     ],
     "customProperties": {
       "animation-duration": "0.3s",
