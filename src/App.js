@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import './assets/react-toolbox/theme.css';
 import theme from './assets/react-toolbox/theme.js';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
