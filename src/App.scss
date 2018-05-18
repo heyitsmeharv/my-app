@@ -22,49 +22,6 @@
   font-size: large;
 }
 
-.AppBar-Icons {
-  color: white;
-  float: right;
-  svg {
-    fill: currentColor;
-    vertical-align: middle;
-    padding-left: 10px;
-    padding-right: 30px;  
-  }
-}
-
-.nav {
-  display: flex;
-  flex: 1;
-  height: 100%;
-
-  & > button {
-    font-size: 1rem;
-    // color
-    height: 100% !important;
-    font-weight: 400 !important;
-    &:hover,
-    &:active,
-    &:focus {
-      background: pink !important;
-    }
-    &.isActive {
-      background: transparent;
-      border-bottom: 5px solid white;
-      &:hover,
-      &:active,
-      &:focus {
-        background: transparent !important;
-        cursor: initial
-      }
-    }
-    i {
-      font-size: 1.5rem;
-    }
-    }
-  }
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
