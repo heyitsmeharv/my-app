@@ -1,0 +1,71 @@
+.avatar {
+  position: absolute;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #9e9e9e;
+  border-radius: 50%;
+}
+
+.background {
+  
+}
+
+.social-media-buttons {
+  justify-content: center;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  .social-media-twitter {
+    background-color: #1B95E0 !important;
+    span {
+      line-height: 60px !important;
+      svg {
+          fill: white; 
+        }
+      }
+    }
+
+  .social-media-facebook {
+    background-color: #365899 !important;
+    span {
+      line-height: 60px !important;
+      svg {
+          fill: white; 
+        }
+      }
+    }
+
+  .social-media-linkedIn {
+    background-color:#0077B5 !important;
+    span {
+      line-height: 60px !important;
+      svg {
+          fill: white; 
+        }
+      }
+    }
+
+  .social-media-gitHub {
+    background-color: white !important;
+    span {
+      line-height: 60px !important;
+      svg {
+        fill: black; 
+      }
+    }
+  }
+}
+
+.blank-canvas {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}

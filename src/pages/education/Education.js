@@ -1,12 +1,24 @@
 import React, { Component } from 'react';
-import Avatar from 'react-toolbox/lib/avatar/Avatar';
-import Me from '../../assets/images/me.jpg';
+import Trianglify from 'trianglify';
 import './styles.scss';
 
 class Education extends Component {
+  constructor(props) {
+    super();
+    this.state={}
+  }
+  background = () => {
+    var pattern = Trianglify({
+      height: window.innerHeight,
+      width: window.innerWidth,
+      cell_size: 40});
+    
+    document.body.appendChild(pattern.svg());
+  }
+
   render() {
     return (
-      <Avatar className="profile" image={Me}/>
+      <image src={this.background()} />
     );
   }
 }

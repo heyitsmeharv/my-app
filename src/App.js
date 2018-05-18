@@ -2,15 +2,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
-// React ToolBox Components
-import AppBar from 'react-toolbox/lib/app_bar/AppBar';
-import Layout from 'react-toolbox/lib/layout/Layout';
-
 // Components
 import Menu from './components/Menu/menu';
 
 // Pages
-import Profile from './pages/profile/Profile';
+import Home from './pages/home/Home';
 import Education from './pages/education/Education';
 import GameDev from './pages/gamedev/GameDev';
 import WebDev from './pages/webdev/WebDev';
@@ -37,10 +33,10 @@ class App extends Component {
         <BrowserRouter basename="/">
           <div>
             <Route render={props => <Menu {...props}/>}/>
-            <Route exact path="/profile" render={props => <Profile {...props} />}/>
+            <Route exact path="/home" render={props => <Home {...props} />}/>
             <Route exact path="/education" render={props => <Education {...props} />}/>
-            <Route exact path="/game_portfolio" render={props => <GameDev {...props} />}/>
-            <Route exact path="/web_portfolio" render={props => <WebDev {...props} />}/>
+            <Route exact path="/games" render={props => <GameDev {...props} />}/>
+            <Route exact path="/web" render={props => <WebDev {...props} />}/>
           </div> 
         </BrowserRouter>
       </ThemeProvider>

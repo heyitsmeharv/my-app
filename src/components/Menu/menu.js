@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from 'react-toolbox/lib/app_bar/AppBar';
 import Button from 'react-toolbox/lib/button/Button';
-import Link from 'react-toolbox/lib/link/Link';
 import Tooltip from 'react-toolbox/lib/tooltip/Tooltip';
 import * as Icon from '../../assets/icons';
 import './styles.scss';
@@ -28,14 +27,14 @@ class Menu extends Component {
         },
         {
           text: 'Game Development',
-          value: '/gameDev',
+          value: '/games',
           icon: <Icon.GameDev/>,
           isActive: false,
           tooltip: 'GameDev',
         },
         {
           text: 'Web Development',
-          value: '/webDev',
+          value: '/web',
           icon: <Icon.WebDev/>,
           isActive: false,
           tooltip: 'WebDev',
@@ -81,11 +80,7 @@ class Menu extends Component {
               );
             })
           }
-          </nav>
-        <Link className="AppBar-Links" href="https://twitter.com/HeyItsMeHarv" label="Twitter" icon={<Icon.Twitter/>}/>
-        <Link className="AppBar-Links" href="https://www.facebook.com/adam.harvey.73" label="Facebook" icon={<Icon.Facebook/>}/>
-        <Link className="AppBar-Links" href="https://www.linkedin.com/in/adam-harvey-5b726a27/" label="LinkedIn" icon={<Icon.LinkedIn/>}/>
-        <Link className="AppBar-Links" href="https://github.com/heyitsmeharv" label="GitHub" icon={<Icon.GitHub/>}/>
+        </nav>
       </AppBar>
     );
   }
