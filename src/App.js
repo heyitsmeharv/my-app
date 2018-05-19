@@ -29,23 +29,24 @@ class App extends Component {
     this.state = {};
   }
 
-  render() {
-
-    var pattern = Trianglify({
+  generateBackground = () => {
+    return Trianglify({
       height: window.innerHeight,
       width: window.innerWidth,
       cell_size: 40});
+  }
 
+  render() {
     return (
       <ThemeProvider theme={theme}>
         <BrowserRouter basename="/">
-          <div alt="background" className="background" style={{backgroundImage: 'url(' + pattern.png() + ')'}}>
+          <Route render={props => <div alt="background" className="background" style={{backgroundImage: 'url(' + this.generateBackground().png() + ')'}}>
             <Route render={props => <Menu {...props}/>}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
             <Route exact path="/education" render={props => <Education {...props} />}/>
             <Route exact path="/games" render={props => <GameDev {...props} />}/>
             <Route exact path="/web" render={props => <WebDev {...props} />}/>
-          </div>
+          </div>}/>
         </BrowserRouter>
       </ThemeProvider>
     );
