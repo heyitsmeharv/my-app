@@ -3,7 +3,6 @@ import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import * as Icon from '../../assets/icons';
 import Me from '../../assets/images/me.jpg';
-import Trianglify from 'trianglify';
 import './styles.scss';
 
 class Home extends Component {
@@ -12,19 +11,9 @@ class Home extends Component {
     this.state = {};
   }
 
-  background = () => {
-    var pattern = Trianglify({
-      height: window.innerHeight,
-      width: window.innerWidth,
-      cell_size: 40});
-    
-    document.body.appendChild(pattern.svg());
-  }
-
   render() {
     return (
       <div>
-        <image className="background" src={this.background()} />
         {/* <Avatar className="avatar"><img alt="Me" src={Me}/></Avatar> */}
         <div className="social-media-buttons">
           <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating />

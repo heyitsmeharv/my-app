@@ -7,18 +7,10 @@ class GameDev extends Component {
     super();
     this.state={}
   }
-  background = () => {
-    var pattern = Trianglify({
-      height: window.innerHeight,
-      width: window.innerWidth,
-      cell_size: 40});
-    
-    document.body.appendChild(pattern.svg());
-  }
 
   render() {
     return (
-      <image src={this.background()} />
+      <div />
     );
   }
 }

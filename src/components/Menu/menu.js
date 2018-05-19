@@ -62,6 +62,7 @@ class Menu extends Component {
     const { routes } = this.state;
     // const TooltipButton = Tooltip(Button);
     return (
+      <div>
       <AppBar>
         <nav className="nav"> 
           {
@@ -82,6 +83,7 @@ class Menu extends Component {
           }
         </nav>
       </AppBar>
+      </div>
     );
   }
 }
