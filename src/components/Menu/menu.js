@@ -30,14 +30,14 @@ class Menu extends Component {
           value: '/games',
           icon: <Icon.GameDev/>,
           isActive: false,
-          tooltip: 'GameDev',
+          tooltip: 'Game Development',
         },
         {
           text: 'Web Development',
           value: '/web',
           icon: <Icon.WebDev/>,
           isActive: false,
-          tooltip: 'WebDev',
+          tooltip: 'Web Development',
         },
       ]
     };
