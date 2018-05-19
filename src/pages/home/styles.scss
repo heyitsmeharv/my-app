@@ -1,8 +1,8 @@
 .avatar {
-  position: absolute;
+  position: unset;
   display: inline-block;
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   font-size: 2.4rem;
   color: #fff;
@@ -21,6 +21,7 @@
 
   .social-media-twitter {
     background-color: #1B95E0 !important;
+    top: 30px;
     span {
       line-height: 60px !important;
       svg {
@@ -51,6 +52,7 @@
 
   .social-media-gitHub {
     background-color: white !important;
+    top: 30px;
     span {
       line-height: 60px !important;
       svg {
@@ -60,8 +62,9 @@
   }
 }
 
-.blank-canvas {
-  width: 500px;
-  height: 500px;
-  background-color: white;
+.paragraph {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 42px;
 }

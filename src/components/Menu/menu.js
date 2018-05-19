@@ -63,7 +63,7 @@ class Menu extends Component {
     // const TooltipButton = Tooltip(Button);
     return (
       <div>
-      <AppBar>
+      <AppBar className="app-bar">
         <nav className="nav"> 
           {
             routes.map(route => {
