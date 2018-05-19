@@ -25,7 +25,7 @@ class Home extends Component {
           <Button className="social-media-gitHub" href="https://github.com/heyitsmeharv" icon={<Icon.GitHub/>} floating />
         </div>
         <span className="paragraph">
-        am an aspiring software developer and enthusiastic problem solver who has experience with both C# and C++ with SDL 2.0, 
+        I am an aspiring software developer and enthusiastic problem solver who has experience with both C# and C++ with SDL 2.0, 
         Cocos2Dx and DirectX 11. I am familiar with Unity, SQL, Agile SCRUM and Android Development.
         Since graduating with a degree in Computer Games (Software Development)  covering a wide range of topics including:
         </span>
