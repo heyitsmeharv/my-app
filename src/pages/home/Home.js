@@ -19,6 +19,11 @@ class Home extends Component {
     this.setState({active: !this.state.active});
   }
 
+  actions = [
+    { label: "Cancel", className: "contact-me-button-action", onClick: this.handleToggle },
+  ];
+
+
   render() {
     return (
       <div>
@@ -45,6 +50,7 @@ class Home extends Component {
             onOverlayClick={this.handleToggle}
             title='Contact Me'
           >
+          <p className="text">You can contact me by email or phone:</p>
           <p className="text">Email Address: heyitsmeharv@gmail.com</p>
           <p className="text">Phone Number: 07809 690 670</p>
           </Dialog>

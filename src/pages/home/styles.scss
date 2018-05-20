@@ -66,13 +66,21 @@
 .contact-me-button {
   display: flex;
   justify-content: center;
-  left: 46%;
+  left: 47%;
   bottom: 50px;
 }
 
+.contact-me-button-action {
+  background: #3f51b5!important;
+  color: #fff!important;
+  bottom: 20px;
+  right: 4px;
+}
+
+
 .contact-me-dialog {
   width: 400px !important;
-  height: 200px !important;
+  height: 250px !important;
 
   .text {
     font-weight: bold;
