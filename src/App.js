@@ -4,16 +4,12 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 // Components
 import Menu from './components/Menu/menu';
-import Background from './components/Background/background';
 
 // Pages
 import Home from './pages/home/Home';
 import Education from './pages/education/Education';
 import GameDev from './pages/gamedev/GameDev';
 import WebDev from './pages/webdev/WebDev';
-
-// Icons
-import * as Icon from './assets/icons';
 
 // Theme
 import Trianglify from 'trianglify';
