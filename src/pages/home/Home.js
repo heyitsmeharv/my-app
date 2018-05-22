@@ -6,6 +6,13 @@ import Tooltip from 'react-toolbox/lib/tooltip/Tooltip';
 import * as Icon from '../../assets/icons';
 import Me from '../../assets/images/me.jpg';
 import './styles.scss';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Permanent Marker:300,400,700', 'sans-serif']
+  }
+});
 
 class Home extends Component {
   constructor(props) {
