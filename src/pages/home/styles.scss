@@ -65,9 +65,16 @@
 
 .contact-me-button {
   float: left;
-  left: 5%;
+  left: 46%;
   animation-name: paragraph;
   animation-duration: 2s;
+}
+
+// MOBILE OMG THIS IS SHIT
+@media screen and (max-width: 768px) {
+  .contact-me-button { /* every section without class - but won't select Section C */
+    left: 40%;
+  }
 }
 
 .contact-me-button-action {
