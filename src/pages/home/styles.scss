@@ -1,8 +1,8 @@
 .avatar {
   position: unset;
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   font-size: 2.4rem;
   color: #fff;
@@ -11,6 +11,9 @@
   background-color: #9e9e9e;
   border-radius: 50%;
   background-position: 100, 100;
+
+  animation-name: social-media;
+  animation-duration: 1s;
 }
 
 .social-media-buttons {
@@ -19,6 +22,8 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  animation-name: social-media;
+  animation-duration: 2s;
 
   .social-media-twitter {
     background-color: #1B95E0 !important;
@@ -64,6 +69,7 @@
 }
 
 .contact-me-button {
+  font-family: 'Permanent Marker', sans-serif;
   float: left;
   left: 46%;
   animation-name: paragraph;
@@ -78,6 +84,7 @@
 }
 
 .contact-me-button-action {
+  font-family: 'Permanent Marker', sans-serif;
   background: #3f51b5!important;
   color: #fff!important;
   bottom: 20px;
@@ -86,10 +93,12 @@
 
 
 .contact-me-dialog {
+  font-family: 'Permanent Marker', sans-serif;
   width: 400px !important;
   height: 250px !important;
 
   .text {
+    font-family: sans-serif;
     font-weight: bold;
     padding: 10px;
   }
@@ -110,4 +119,9 @@
 @keyframes paragraph {
   from { transform: translateX(-3000px)}
   to { transform: translateX(0)}
+}
+
+@keyframes social-media {
+  from { transform: translateY(-2000px)}
+  to { transform: translateY(0)}
 }
