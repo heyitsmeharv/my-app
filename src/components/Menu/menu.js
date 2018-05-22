@@ -71,7 +71,7 @@ class Menu extends Component {
                 <Button
                   key={route.value}
                   label={this.hideLabels ? '' : route.text}
-                  className={[route.isActive ? 'isActive' : '', this.hideLabels && 'noLabels'].join(' ')}
+                  className={[route.isActive ? 'isActive' : 'navButton'].join(' ')}
                   onClick={() => this.props.history.push(route.value)}
                   flat
                   icon={route.icon}

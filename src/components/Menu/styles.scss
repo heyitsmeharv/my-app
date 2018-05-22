@@ -1,13 +1,14 @@
 .app-bar {
   background: white !important;
-}
+  }
+
 
 .nav {
   @media screen and (max-width: 768px) {
-    button ~span {
-      display: none;
-    }
+    :not([class]) { /* every section without class - but won't select Section C */
+    display: none;
   }
+}
 
   display: flex;
   flex: 1;

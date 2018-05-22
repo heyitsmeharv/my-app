@@ -64,10 +64,10 @@
 }
 
 .contact-me-button {
-  display: flex;
-  justify-content: center;
-  left: 47%;
-  bottom: 50px;
+  float: left;
+  left: 5%;
+  animation-name: paragraph;
+  animation-duration: 2s;
 }
 
 .contact-me-button-action {
@@ -90,9 +90,17 @@
 }
 
 .paragraph {
-  padding: 200px;
+  margin-top: 35px;
+  padding: 100px;
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  background: white;
+  font-size: 18px;
+  animation-name: paragraph;
+  animation-duration: 2s
+}
+
+@keyframes paragraph {
+  from { transform: translateX(-3000px)}
+  to { transform: translateX(0)}
 }
