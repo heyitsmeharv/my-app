@@ -3,6 +3,7 @@ import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import Dialog from 'react-toolbox/lib/dialog/Dialog';
 import Tooltip from 'react-toolbox/lib/tooltip/Tooltip';
+import Drawer from 'react-toolbox/lib/drawer/Drawer';
 import * as Icon from '../../assets/icons';
 import Me from '../../assets/images/me.jpg';
 import './styles.scss';
@@ -10,7 +11,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Permanent Marker:300,400,700', 'sans-serif']
+    families: ['Boogaloo:300,400,700', 'sans-serif']
   }
 });
 
@@ -18,13 +19,18 @@ class Home extends Component {
   constructor(props) {
     super();
     this.state = {
-      active: false
+      active: false,
+      drawerActive: false,
     };
   }
 
   handleToggle = () => {
     this.setState({active: !this.state.active});
   }
+
+  handleDrawerToggle = () => {
+    this.setState({drawerActive: !this.state.drawerActive});
+  };
 
   actions = [
     { label: "Cancel", className: "contact-me-button-action", onClick: this.handleToggle },
@@ -48,7 +54,7 @@ class Home extends Component {
         Cocos2Dx and DirectX 11. I am familiar with Unity, SQL, Agile SCRUM and Android Development.
         Since graduating with a degree in Computer Games (Software Development)  covering a wide range of topics including:
         </span>
-        <Button className="contact-me-button" label="Contact Me" onClick={this.handleToggle} raised primary>
+        <Button className="contact-me-button" label="Contact Me" onClick={this.handleToggle} raised accent>
           <Dialog
             className="contact-me-dialog"
             actions={this.actions}
@@ -62,6 +68,11 @@ class Home extends Component {
           <p className="text">Phone Number: 07809 690 670</p>
           </Dialog>
         </Button>
+        <Button label='Show Drawer' raised accent onClick={this.handleDrawerToggle} />
+        <Drawer className="drawer" active={this.state.drawerActive} onOverlayClick={this.handleDrawerToggle} type="left">
+          <h5>This is your Drawer.</h5>
+          <p>You can embed any content you want, for example a Menu.</p>
+        </Drawer>
       </div>
     );
   }
