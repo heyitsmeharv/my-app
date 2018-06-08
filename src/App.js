@@ -38,6 +38,7 @@ class App extends Component {
         <BrowserRouter basename="/">
           <Route render={props => <div alt="background" className="background" style={{backgroundImage: 'url(' + this.generateBackground().png() + ')'}}>
             <Route render={props => <Menu {...props}/>}/>
+            <Route exact path="/" render={props => <Home {...props} />}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
             <Route exact path="/education" render={props => <Education {...props} />}/>
             <Route exact path="/games" render={props => <GameDev {...props} />}/>
