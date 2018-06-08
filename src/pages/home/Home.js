@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import Dialog from 'react-toolbox/lib/dialog/Dialog';
-import Tooltip from 'react-toolbox/lib/tooltip/Tooltip';
-import Drawer from 'react-toolbox/lib/drawer/Drawer';
 import * as Icon from '../../assets/icons';
 import Me from '../../assets/images/me.jpg';
 import './styles.scss';
@@ -41,7 +39,7 @@ class Home extends Component {
     return (
       <div>
         <div className="social-media-buttons">
-          <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating><Tooltip tooltip="Hey, it's me, Harv" tooltipPosition="bottom" /></Button>
+          <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating></Button>
           <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" icon={<Icon.Facebook/>} floating />
           <Avatar className="avatar">
             <img className="" alt="Me" src={Me}/>
@@ -68,11 +66,6 @@ class Home extends Component {
           <p className="text">Phone Number: 07809 690 670</p>
           </Dialog>
         </Button>
-        <Button label='Show Drawer' raised accent onClick={this.handleDrawerToggle} />
-        <Drawer className="drawer" active={this.state.drawerActive} onOverlayClick={this.handleDrawerToggle} type="left">
-          <h5>This is your Drawer.</h5>
-          <p>You can embed any content you want, for example a Menu.</p>
-        </Drawer>
       </div>
     );
   }

@@ -4,12 +4,6 @@
 
 
 .nav {
-  @media screen and (max-width: 768px) {
-    :not([class]) { /* every section without class - but won't select Section C */
-    display: none;
-  }
-}
-
   display: flex;
   flex: 1;
   height: 100%;

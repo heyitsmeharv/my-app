@@ -120,12 +120,6 @@
   animation-duration: 2s
 }
 
-aside[react-tool-box="drawer"] {
-  font-family: 'Boogaloo', sans-serif;
-  width: 400px !important;
-  height: 250px !important;
-}
-
 @keyframes paragraph {
   from { transform: translateX(-3000px)}
   to { transform: translateX(0)}

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from 'react-toolbox/lib/app_bar/AppBar';
 import Button from 'react-toolbox/lib/button/Button';
-import Tooltip from 'react-toolbox/lib/tooltip/Tooltip';
 import * as Icon from '../../assets/icons';
 import './styles.scss';
 
@@ -18,13 +17,13 @@ class Menu extends Component {
           isActive: false,
           tooltip: 'Home',
         },
-        {
-          text: 'Education',
-          value: '/education',
-          icon: <Icon.Education/>,
-          isActive: false,
-          tooltip: 'Education',
-        },
+        // {
+        //   text: 'Education',
+        //   value: '/education',
+        //   icon: <Icon.Education/>,
+        //   isActive: false,
+        //   tooltip: 'Education',
+        // },
         {
           text: 'Game Development',
           value: '/games',
