@@ -19,6 +19,7 @@ class Home extends Component {
     this.state = {
       active: false,
       drawerActive: false,
+      isChecked: true
     };
   }
 
@@ -47,25 +48,120 @@ class Home extends Component {
           <Button className="social-media-linkedIn" href="https://www.linkedin.com/in/adam-harvey-5b726a27/" icon={<Icon.LinkedIn/>} floating />
           <Button className="social-media-gitHub" href="https://github.com/heyitsmeharv" icon={<Icon.GitHub/>} floating />
         </div>
-        <span className="paragraph">
-        I am an aspiring software developer and enthusiastic problem solver who has experience with both C# and C++ with SDL 2.0, 
-        Cocos2Dx and DirectX 11. I am familiar with Unity, SQL, Agile SCRUM and Android Development.
-        Since graduating with a degree in Computer Games (Software Development)  covering a wide range of topics including:
-        </span>
-        <Button className="contact-me-button" label="Contact Me" onClick={this.handleToggle} raised accent>
-          <Dialog
-            className="contact-me-dialog"
-            actions={this.actions}
-            active={this.state.active}
-            onEscKeyDown={this.handleToggle}
-            onOverlayClick={this.handleToggle}
-            title='Contact Me'
-          >
-          <p className="text">You can contact me by email or phone:</p>
-          <p className="text">Email Address: heyitsmeharv@gmail.com</p>
-          <p className="text">Phone Number: 07809 690 670</p>
-          </Dialog>
-        </Button>
+        <div className="paragraph">
+          <span className="intro">
+            I am an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer 
+            and has since ventured into the world of web development.
+          </span>
+          <br></br>
+          <span className="experience">
+            My experiences include:
+          </span>
+          <div className="column-wrapper">
+            <div className="column-one">
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">C++</span>
+              </label>
+            <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">C#</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">JavaScript (React.js)</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">SQL</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">SDL 2.0</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">COCOS 2DX</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">DirectX 11</span>
+              </label>
+            </div>
+            <div className="column-two">
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">HTML/CSS</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">Git</span>
+              </label>
+            <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">Agile Development</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">Andriod Development</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">Unity</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
+                <span className="checkbox-label">Unreal Engine</span>
+              </label>
+              <br></br>
+            </div>
+          </div>
+          <br></br>
+            If you have any questions and want to contact me, hit the button below. 
+        </div>
+        <br></br>
+        <br></br>
+        <div className="contact-me">
+          <Button className="contact-me-button" label="Contact Me" onClick={this.handleToggle} raised accent>
+            <Dialog
+              className="contact-me-dialog"
+              actions={this.actions}
+              active={this.state.active}
+              onEscKeyDown={this.handleToggle}
+              onOverlayClick={this.handleToggle}
+              title='Contact Me'
+            >
+            <p className="text">You can contact me via email or phone:</p>
+            <p className="text">Email Address: heyitsmeharv@gmail.com</p>
+            <p className="text">Phone Number: 07809 690 670</p>
+            <p className="text">Alternatively you can drop me a message via any of the social media buttons.</p>
+            </Dialog>
+          </Button>
+        </div>
       </div>
     );
   }
