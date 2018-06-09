@@ -35,16 +35,18 @@ class Home extends Component {
     { label: "Cancel", className: "contact-me-button-action", onClick: this.handleToggle },
   ];
 
-
   render() {
     return (
       <div>
         <div className="social-media-buttons">
           <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating></Button>
           <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" icon={<Icon.Facebook/>} floating />
-          <Avatar className="avatar">
-            <img className="" alt="Me" src={Me}/>
-          </Avatar>
+          <div className="tooltip"> 
+            <Avatar className="avatar">
+              <img className="" alt="Me" src={Me}/>
+            </Avatar>
+            <span className="tooltiptext">Hey, it's me, Harv</span>
+          </div>
           <Button className="social-media-linkedIn" href="https://www.linkedin.com/in/adam-harvey-5b726a27/" icon={<Icon.LinkedIn/>} floating />
           <Button className="social-media-gitHub" href="https://github.com/heyitsmeharv" icon={<Icon.GitHub/>} floating />
         </div>
