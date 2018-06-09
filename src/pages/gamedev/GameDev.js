@@ -3,6 +3,7 @@ import Mcloud from '../../assets/images/gassymcloud.png'
 import Cowhhunter from '../../assets/images/cowhunter.png'
 import Tikki from '../../assets/images/tikki.png'
 import Fable from '../../assets/images/fable.png'
+import ListCheckbox from 'react-toolbox/lib/list/ListCheckbox';
 
 import './styles.scss';
 
@@ -20,10 +21,10 @@ class GameDev extends Component {
             <a>
               <img className="mcloud" alt="GassyMcloud" src={Mcloud}/>
             </a>
-            <div class="desc">Flappy Bird</div>
+            <div class="desc">Flappy Bird Clone</div>
           </div>
           <div class="gallery">
-            <a>
+            <a href="https://globalgamejam.org/2016/games/mount-tiki">
               <img className="tikki" alt="MountTikki" src={Tikki}/>
             </a>
             <div class="desc">Multiplayer Brawler</div>
@@ -43,12 +44,10 @@ class GameDev extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            Bsc Computer Games (Software Development)
+            Above are just some of the games I made during my time at university where I studied Computer Games (Software Development),
+            covering a wide range of topics including:
           </span>
           <br></br>
-          <span className="experience">
-            My experiences include:
-          </span>
           <div className="column-wrapper">
             <div className="column-one">
               <label class="container">
@@ -84,7 +83,6 @@ class GameDev extends Component {
             </div>
           </div>
           <br></br>
-            If you have any questions and want to contact me, hit the button below. 
         </div>
       </div>
     );

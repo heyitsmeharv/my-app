@@ -7,7 +7,6 @@ import Menu from './components/Menu/menu';
 
 // Pages
 import Home from './pages/home/Home';
-import Education from './pages/education/Education';
 import GameDev from './pages/gamedev/GameDev';
 import WebDev from './pages/webdev/WebDev';
 
@@ -40,7 +39,6 @@ class App extends Component {
             <Route render={props => <Menu {...props}/>}/>
             <Route exact path="/" render={props => <Home {...props} />}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
-            <Route exact path="/education" render={props => <Education {...props} />}/>
             <Route exact path="/games" render={props => <GameDev {...props} />}/>
             <Route exact path="/web" render={props => <WebDev {...props} />}/>
           </div>}/>

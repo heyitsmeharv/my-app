@@ -151,16 +151,18 @@
 
 .column-wrapper {
   display: flex;
-  animation-name: experiences;
-  animation-duration: 2s;
 }
 
 .column-one {
   padding: 30px;
+  animation-name: experiences;
+  animation-duration: 3s;
 }
 
 .column-two {
   padding: 30px;
+  animation-name: experiences;
+  animation-duration: 2s;
 }
 
 .container container {

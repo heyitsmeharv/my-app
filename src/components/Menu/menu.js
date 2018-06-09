@@ -17,13 +17,6 @@ class Menu extends Component {
           isActive: false,
           tooltip: 'Home',
         },
-        // {
-        //   text: 'Education',
-        //   value: '/education',
-        //   icon: <Icon.Education/>,
-        //   isActive: false,
-        //   tooltip: 'Education',
-        // },
         {
           text: 'Game Development',
           value: '/games',
