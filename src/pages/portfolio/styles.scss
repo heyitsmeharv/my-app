@@ -23,8 +23,6 @@
   }
 
 .images {
-    animation-name: images;
-    animation-duration: 2s;
     display: flex;
     justify-content: center;
     .mcloud {
@@ -89,8 +87,3 @@
     text-align: center;
     width: 100%;
 }
-
-@keyframes images {
-    from { transform: translateY(-3000)}
-    to { transform: translateY(0)}
-  }

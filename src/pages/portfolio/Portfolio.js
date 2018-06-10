@@ -43,7 +43,7 @@ class Portfolio extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            Above are just some of the games I made during my time at university where I studied Computer Games (Software Development),
+            Above are just some of the games I've made since graduating with a degree in Computer Games (Software Development),
             covering a wide range of topics including:
           </span>
           <br></br>
