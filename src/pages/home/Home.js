@@ -43,7 +43,7 @@ class Home extends Component {
           <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" icon={<Icon.Facebook/>} floating />
           <div className="tooltip"> 
             <Avatar className="avatar">
-              <img className="" alt="Me" src={Me}/>
+              <img className="me" alt="Me" src={Me}/>
             </Avatar>
             <span className="tooltiptext">Hey, it's me, Harv</span>
           </div>

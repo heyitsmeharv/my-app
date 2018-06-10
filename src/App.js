@@ -3,12 +3,11 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 // Components
-import Menu from './components/Menu/menu';
+import Menu from './components/menu/Menu';
 
 // Pages
 import Home from './pages/home/Home';
-import GameDev from './pages/gamedev/GameDev';
-import WebDev from './pages/webdev/WebDev';
+import Portfolio from './pages/portfolio/Portfolio';
 
 // Theme
 import Trianglify from 'trianglify';
@@ -39,8 +38,7 @@ class App extends Component {
             <Route render={props => <Menu {...props}/>}/>
             <Route exact path="/" render={props => <Home {...props} />}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
-            <Route exact path="/games" render={props => <GameDev {...props} />}/>
-            <Route exact path="/web" render={props => <WebDev {...props} />}/>
+            <Route exact path="/games" render={props => <Portfolio {...props} />}/>
           </div>}/>
         </BrowserRouter>
       </ThemeProvider>
