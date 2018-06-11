@@ -2,12 +2,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
-// Components
-import Menu from './components/menu/Menu';
-
 // Pages
 import Home from './pages/home/Home';
 import Portfolio from './pages/portfolio/Portfolio';
+
+// Components
+import Menu from './components/menu/Menu';
 
 // Theme
 import Trianglify from 'trianglify';
