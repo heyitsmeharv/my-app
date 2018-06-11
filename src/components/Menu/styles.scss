@@ -1,0 +1,58 @@
+.app-bar {
+  background: white !important;
+  }
+
+
+.nav {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+
+  & > button {
+    span {
+      // margin-bottom: 8px;
+    }
+    font-size: 1rem;
+    color: #303f9f !important;
+    float: right;
+    svg {
+      fill: currentColor;
+      vertical-align: middle;
+      padding-left: 10px;
+      padding-right: 30px;  
+    }    height: 100% !important;
+    font-weight: 400 !important;
+    &:hover,
+    &:active,
+    &:focus {
+      background: #303f9f !important;
+      color: white !important;
+    }
+    &.isActive {
+      background: transparent;
+      border-bottom: 5px solid white;
+      &:hover,
+      &:active,
+      &:focus {
+        background: transparent !important;
+        cursor: initial
+      }
+    }
+    i {
+      font-size: 1.5rem;
+      color: white !important;
+    }
+    }
+  }
+
+  .AppBar-Links {
+    color: white;
+    float: right;
+    svg {
+      fill: currentColor;
+      vertical-align: middle;
+      padding-left: 10px;
+      padding-right: 30px;  
+    }
+  }
