@@ -13,7 +13,7 @@ import Menu from './components/Menu/menu';
 import Trianglify from 'trianglify';
 import theme from './assets/react-toolbox/theme.js';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
-import './app.scss';
+import './App.scss';
 import './assets/react-toolbox/theme.css';
 
 class App extends Component {
