@@ -48,21 +48,31 @@
         display: flex;
         justify-content: center;
         .mcloud {
-            width: 200px;
+            width: 100px;
             height: 100px;
         }
         .tikki {
-            width: 200px;
+            width: 100px;
             height: 100px;
         }
         .fable {
-            width: 200px;
+            width: 100px;
             height: 100px;
         }
         .cow {
-            width: 200px;
+            width: 100px;
             height: 100px;
         }
+    }
+    .desc {
+        text-align: center;
+        width: 100%;
+    }
+    .gallery {
+        margin: 2px;
+        border: 2px solid black;
+        float: left;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 

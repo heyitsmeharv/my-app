@@ -16,20 +16,6 @@
   animation-duration: 1s;
 }
 
-
-@media screen and (max-width: 768px) {
-  .avatar {
-    width: 150px;
-    height: 150xp;
-    animation-name: social-media;
-    animation-duration: 1s;
-  }
-}
-
-.me {
-  background-clip: 100px;
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -118,10 +104,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .avatar {
+    width: 150px;
+    height: 150px;
+    animation-name: social-media;
+    animation-duration: 1s;
+  }
+ 
   .contact-me {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
   }
 }
 
