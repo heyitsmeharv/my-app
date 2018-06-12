@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 // Pages
-import Home from './pages/home/home';
-import Portfolio from './pages/portfolio/portfolio';
+import Home from './pages/home/Home';
+import Portfolio from './pages/portfolio/Portfolio';
 
 // Components
-import Menu from './components/menu/menu';
+import Menu from './components/Menu/menu';
 
 // Theme
 import Trianglify from 'trianglify';
