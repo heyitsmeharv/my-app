@@ -24,8 +24,12 @@ class App extends Component {
 
   generateBackground = () => {
     return Trianglify({
-      height: window.innerHeight,
-      width: window.innerWidth,
+      height: window.innerHeight
+      || document.documentElement.clientHeight
+      || document.body.clientHeight,
+      width: window.innerWidth
+      || document.documentElement.clientWidth
+      || document.body.clientWidth,
       cell_size: 40});
   }
 
