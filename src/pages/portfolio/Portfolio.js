@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Dialog from 'react-toolbox/lib/dialog/Dialog';
 import Mcloud from '../../assets/images/gassymcloud.png'
 import Cowhhunter from '../../assets/images/cowhunter.png'
 import Tikki from '../../assets/images/tikki.png'
@@ -21,6 +22,19 @@ class Portfolio extends Component {
               <img className="mcloud" alt="GassyMcloud" src={Mcloud}/>
             </a>
             <div class="desc">Flappy Bird Clone</div>
+            <Dialog
+              className="contact-me-dialog"
+              actions={this.actions}
+              // active={this.state.active}
+              onEscKeyDown={this.handleToggle}
+              onOverlayClick={this.handleToggle}
+              title='Contact Me'
+            >
+            <p className="text">You can contact me via email or phone:</p>
+            <p className="text">Email Address: heyitsmeharv@gmail.com</p>
+            <p className="text">Phone Number: 07809 690 670</p>
+            <p className="text">Alternatively you can drop me a message via any of the social media buttons.</p>
+            </Dialog>
           </div>
           <div class="gallery">
             <a href="https://globalgamejam.org/2016/games/mount-tiki">
