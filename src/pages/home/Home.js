@@ -113,6 +113,12 @@ class Home extends Component {
               <label class="container">
                 <input type="checkbox" checked="checked"/>
                 <span class="checkmark"></span>
+                <span className="checkbox-label">Node</span>
+              </label>
+              <br></br>
+              <label class="container">
+                <input type="checkbox" checked="checked"/>
+                <span class="checkmark"></span>
                 <span className="checkbox-label">Git</span>
               </label>
             <br></br>
