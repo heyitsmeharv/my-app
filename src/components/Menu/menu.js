@@ -18,11 +18,18 @@ class Menu extends Component {
           tooltip: 'Home',
         },
         {
-          text: 'Games Development',
+          text: 'Projects',
           value: '/games',
           icon: <Icon.Games/>,
           isActive: false,
-          tooltip: 'My Games',
+          tooltip: 'Projects',
+        },
+        {
+          text: 'Experience',
+          value: '/experience',
+          icon: <Icon.Experience/>,
+          isActive: false,
+          tooltip: 'Experience',
         },
       ]
     };

@@ -7,3 +7,4 @@ export { default as LinkedIn } from 'mdi-react/LinkedinBoxIcon'
 export { default as GitHub } from 'mdi-react/GithubCircleIcon';
 export { default as Games } from 'mdi-react/GamepadVariantIcon';
 export { default as ContactMe } from 'mdi-react/ContactMailIcon';
+export { default as Experience } from 'mdi-react/PencilIcon';
