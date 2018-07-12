@@ -76,7 +76,7 @@ class Home extends Component {
               <label class="container">
                 <input type="checkbox" checked="checked"/>
                 <span class="checkmark"></span>
-                <span className="checkbox-label">JavaScript (React.js)</span>
+                <span className="checkbox-label">React.js</span>
               </label>
               <br></br>
               <label class="container">
@@ -125,7 +125,7 @@ class Home extends Component {
               <label class="container">
                 <input type="checkbox" checked="checked"/>
                 <span class="checkmark"></span>
-                <span className="checkbox-label">Agile Development</span>
+                <span className="checkbox-label">Agile</span>
               </label>
               <br></br>
               <label class="container">
