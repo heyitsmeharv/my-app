@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Card from 'react-toolbox/lib/card/Card';
 import './styles.scss';
 
 class Experience extends Component {
@@ -10,8 +10,18 @@ class Experience extends Component {
 
   render() {
     return (
-      <div>
-       ContactPartners...
+      <div className="cardWrapper">
+        <Card className="university">
+          <div className="title">
+            Southampton Solent
+          </div>
+        </Card>
+
+        <Card className="contactPartners">
+          <div className="title">
+            ContactPartners
+          </div>
+        </Card>
       </div>
     );
   }

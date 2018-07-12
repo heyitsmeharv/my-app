@@ -1,0 +1,42 @@
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .university {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: centre;
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      justify-content: left;
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  }
+  .contactPartners {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: centre;
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      justify-content: left;
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  }
+}
