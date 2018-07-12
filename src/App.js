@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 // Pages
 import Home from './pages/home/Home';
 import Portfolio from './pages/portfolio/Portfolio';
+import Experience from './pages/experience/Experience';
 
 // Components
 import Menu from './components/Menu/menu';
@@ -42,6 +43,7 @@ class App extends Component {
             <Route exact path="/" render={props => <Home {...props} />}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
             <Route exact path="/games" render={props => <Portfolio {...props} />}/>
+            <Route exact path="/experience" render={props => <Experience {...props} />}/>
           </div>}/>
         </BrowserRouter>
       </ThemeProvider>
