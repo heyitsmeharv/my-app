@@ -62,7 +62,7 @@ class Portfolio extends Component {
           </span>
           <br></br>
           <div className="column-wrapper">
-            <div className="column-one">
+            <div className="column-one-projects">
               <label class="container">
                 <input type="checkbox" checked="checked"/>
                 <span class="checkmark"></span>
