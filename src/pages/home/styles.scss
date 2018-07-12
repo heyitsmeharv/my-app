@@ -109,8 +109,11 @@
     height: 150px;
     animation-name: social-media;
     animation-duration: 1s;
+    .image {
+      width: 150px;
+    }
   }
- 
+
   .contact-me {
     display: flex;
     flex-direction: column;
