@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Card from 'react-toolbox/lib/card/Card';
+
+import SouthamptonSolentLogo from '../../assets/images/solent-university-logo.png';
+import ContactPartnersLogo from '../../assets/images/cplogo.png';
 import './styles.scss';
 
 class Experience extends Component {
@@ -12,15 +15,19 @@ class Experience extends Component {
     return (
       <div className="cardWrapper">
         <Card className="university">
-          <div className="title">
+          {/* <div className="title">
             Southampton Solent
-          </div>
+          </div> */}
+          <img className="university" alt="southamptonsolent" src={SouthamptonSolentLogo}/>
         </Card>
 
         <Card className="contactPartners">
-          <div className="title">
+          {/* <div className="title">
             ContactPartners
-          </div>
+          </div> */}
+          <a>
+            <img className="contactpartnerslogo" alt="contactpartners" src={ContactPartnersLogo}/>
+          </a>
         </Card>
       </div>
     );

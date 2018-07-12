@@ -1,14 +1,29 @@
 .cardWrapper {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   .university {
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: white;
+    background-color: #e20613;
     width: 50%;
-    height: 300px;
+    height: 350px;
+    display: flex;
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      justify-content: left;
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+    .university {
+      padding: 15px;
+      background-color: white;
+      width: 150px;
+      height: 80px;
+    }
+  }
+  .contactPartners {
+    background-color: #2d0f41;
+    width: 50%;
+    height: 350px;
     display: flex;
     justify-content: centre;
 
@@ -20,23 +35,63 @@
       padding-left: 20px;
       padding-top: 20px;
     }
-  }
-  .contactPartners {
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: white;
-    width: 50%;
-    height: 300px;
-    display: flex;
-    justify-content: centre;
 
-    .title {
-      font-size: 24px;
-      font-weight: bold;
+    .contactpartnerslogo {
+      padding: 15px;
+      background-color: whitesmoke;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    .university {
+      justify-content: center;
+      background-color: #e20613;
+      width: 50%;
+      height: 300px;
       display: flex;
-      justify-content: left;
-      padding-left: 20px;
-      padding-top: 20px;
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      .university {
+        justify-content: center;
+        padding: 15px;
+        background-color: whitesmoke;
+        width: 195px;
+        height: 80px;
+      }
+    }
+    .contactPartners {
+      margin-top: 20px;
+      background-color: #2d0f41;
+      width: 50%;
+      height: 300px;
+      display: flex;
+      justify-content: centre;
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: left;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+
+      .contactpartnerslogo {
+        padding: 22px;
+        background-color: whitesmoke;
+      }
     }
   }
 }
