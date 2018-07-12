@@ -55,26 +55,26 @@ class Menu extends Component {
     // const TooltipButton = Tooltip(Button);
     return (
       <div>
-      <AppBar className="app-bar">
-        <nav className="nav"> 
-          {
-            routes.map(route => {
-              return (
-                <Button
-                  key={route.value}
-                  label={this.hideLabels ? '' : route.text}
-                  className={[route.isActive ? 'isActive' : 'navButton'].join(' ')}
-                  onClick={() => this.props.history.push(route.value)}
-                  flat
-                  icon={route.icon}
-                  // tooltipPosition="bottom"
-                  // tooltip={route.tooltip}
-                />
-              );
-            })
-          }
-        </nav>
-      </AppBar>
+        <AppBar className="app-bar">
+          <nav className="nav"> 
+            {
+              routes.map(route => {
+                return (
+                  <Button
+                    key={route.value}
+                    label={this.hideLabels ? '' : route.text}
+                    className={[route.isActive ? 'isActive' : 'navButton'].join(' ')}
+                    onClick={() => this.props.history.push(route.value)}
+                    flat
+                    icon={route.icon}
+                    // tooltipPosition="bottom"
+                    // tooltip={route.tooltip}
+                  />
+                );
+              })
+            }
+          </nav>
+        </AppBar>
       </div>
     );
   }
