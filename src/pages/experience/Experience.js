@@ -14,12 +14,15 @@ class Experience extends Component {
   render() {
     return (
       <div className="cardWrapper">
-        <Card className="university">
-          {/* <div className="title">
+        {/* <Card className="university">
+          <div className="title">
             Southampton Solent
-          </div> */}
+          </div>
           <img className="university" alt="southamptonsolent" src={SouthamptonSolentLogo}/>
-        </Card>
+          <div className="cardText">
+           My university degree covered a wide range of topics including:
+          </div>
+        </Card> */}
 
         <Card className="contactPartners">
           {/* <div className="title">

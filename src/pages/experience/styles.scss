@@ -1,5 +1,7 @@
 .cardWrapper {
   display: flex;
+  justify-content: center;
+  padding-top: 15px;
   .university {
     background-color: #e20613;
     width: 50%;
@@ -18,6 +20,9 @@
       background-color: white;
       width: 150px;
       height: 80px;
+    }
+    .cardText {
+      color: white;
     }
   }
   .contactPartners {
