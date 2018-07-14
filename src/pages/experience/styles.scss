@@ -47,16 +47,16 @@
       color: white;
     }
 
-    .social-media-buttons {
+    .contactPartners-social-media-buttons {
       justify-content: center;
-      top: 25px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       position: relative;
-
-      .social-media-twitter {
+      top: 30px;
+      align-items: center;
+      .contactPartners-social-media-twitter {
         background-color: #1B95E0 !important;
-        top: 30px;
+        margin-bottom: 10px;
         span {
           line-height: 60px !important;
           svg {
@@ -65,7 +65,7 @@
           }
         }
 
-      .social-media-facebook {
+      .contactPartners-social-media-facebook {
         background-color: #365899 !important;
         span {
           line-height: 60px !important;
@@ -75,8 +75,9 @@
           }
         }
 
-      .social-media-linkedIn {
+      .contactPartners-social-media-linkedIn {
         background-color:#0077B5 !important;
+        margin-bottom: 10px;
         span {
           line-height: 60px !important;
           svg {
@@ -85,7 +86,7 @@
           }
         }
 
-      .social-media-gitHub {
+      .contactPartners-social-media-gitHub {
         background-color: white !important;
         top: 30px;
         span {
