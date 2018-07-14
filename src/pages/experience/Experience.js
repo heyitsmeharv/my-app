@@ -27,9 +27,6 @@ class Experience extends Component {
         </Card> */}
 
         <Card className="contactPartners">
-          {/* <div className="title">
-            ContactPartners
-          </div> */}
           <div>
             <a href="http://http://contactpartners.com/">
               <img className="contactpartnerslogo" alt="contactpartners" src={ContactPartnersLogo}/>
@@ -41,8 +38,13 @@ class Experience extends Component {
             </div>
           </div>
           <div className="cardText">
-            I am currenty a front-end developer ar ContactPartners. I help build and support large applications which
-            help businesses comminicate internally.
+            <div className="title">
+              Front-End Developer - Present
+            </div>
+            <div className="text">
+              I am currenty a front-end developer ar ContactPartners. I help build and support large applications which
+              help businesses comminicate internally.
+            </div>
           </div>
         </Card>
       </div>
