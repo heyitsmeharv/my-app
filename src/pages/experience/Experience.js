@@ -42,8 +42,8 @@ class Experience extends Component {
               Front-End Developer: June 2016 - Present
             </div>
             <div className="text">
-              I am currenty a front-end developer ar ContactPartners. I help build and support large applications which
-              help businesses comminicate internally.
+              I am currenty a front-end developer at ContactPartners. I help build and support complex applications which
+              aid large businesses, mainly banks, to communicate internally as well as with their clients.
             </div>
           </div>
         </Card>
