@@ -19,7 +19,7 @@ class Home extends Component {
     this.state = {
       active: false,
       drawerActive: false,
-      isChecked: true
+      isChecked: true,
     };
   }
 
@@ -41,7 +41,7 @@ class Home extends Component {
         <div className="social-media-buttons">
           <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating></Button>
           <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" icon={<Icon.Facebook/>} floating />
-          <div className="tooltip"> 
+          <div className="tooltip">
             <Avatar className="avatar">
               <img className="image" alt="Me" src={Me}/>
             </Avatar>
@@ -52,12 +52,12 @@ class Home extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            I am an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer 
+            I am a 24 year old aspiring software developer and enthusiastic problem solver who started his programming career as a game developer 
             and has since ventured into the world of web development.
           </span>
           <br></br>
           <span className="experience">
-            My experiences include:
+            My skills include:
           </span>
           <div className="column-wrapper">
             <div className="column-one">

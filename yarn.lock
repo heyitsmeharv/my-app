@@ -6823,6 +6823,10 @@ react-style-proptype@^3.0.0:
   dependencies:
     prop-types "^15.5.4"
 
+react-timeago@^4.1.9:
+  version "4.1.9"
+  resolved "https://registry.yarnpkg.com/react-timeago/-/react-timeago-4.1.9.tgz#a5dee4ac072299a9a5ca5a61f56177a80f83c1fb"
+
 react-toolbox-themr@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-toolbox-themr/-/react-toolbox-themr-1.0.2.tgz#ca08ccc4ac9074a3784d69601a115ff08252d176"

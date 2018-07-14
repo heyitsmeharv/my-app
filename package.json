@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "9.2.0",
-    "yarn": "1.6.0"
+    "yarn": "1.7.0"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",
