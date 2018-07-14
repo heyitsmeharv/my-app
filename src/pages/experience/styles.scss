@@ -47,6 +47,56 @@
       color: white;
     }
 
+    .social-media-buttons {
+      justify-content: center;
+      top: 25px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+
+      .social-media-twitter {
+        background-color: #1B95E0 !important;
+        top: 30px;
+        span {
+          line-height: 60px !important;
+          svg {
+              fill: white; 
+            }
+          }
+        }
+
+      .social-media-facebook {
+        background-color: #365899 !important;
+        span {
+          line-height: 60px !important;
+          svg {
+              fill: white; 
+            }
+          }
+        }
+
+      .social-media-linkedIn {
+        background-color:#0077B5 !important;
+        span {
+          line-height: 60px !important;
+          svg {
+              fill: white; 
+            }
+          }
+        }
+
+      .social-media-gitHub {
+        background-color: white !important;
+        top: 30px;
+        span {
+          line-height: 60px !important;
+          svg {
+            fill: black; 
+          }
+        }
+      }
+    }
+
     .contactpartnerslogo {
       padding: 15px;
       background-color: whitesmoke;

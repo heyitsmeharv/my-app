@@ -35,7 +35,7 @@ class Experience extends Component {
               <img className="contactpartnerslogo" alt="contactpartners" src={ContactPartnersLogo}/>
             </a>
             <div className="social-media-buttons">
-              <Button className="social-media-twitter" href="https://twitter.com/ContactPartners" icon={<Icon.Twitter/>} floating></Button>
+              <Button className="social-media-twitter" href="https://twitter.com/ContactPartners" icon={<Icon.Twitter/>} floating />
               <Button className="social-media-linkedIn" href="https://www.linkedin.com/in/ContactPartners/" icon={<Icon.LinkedIn/>} floating />
               <Button className="social-media-facebook" href="https://www.facebook.com/ContactPartners" icon={<Icon.Facebook/>} floating />
             </div>
