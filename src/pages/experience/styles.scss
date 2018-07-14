@@ -26,7 +26,7 @@
     }
   }
   .contactPartners {
-    background-color: #2d0f41;
+    background-color: #a078a5;
     width: 50%;
     height: 350px;
     display: flex;
@@ -39,6 +39,12 @@
       justify-content: left;
       padding-left: 20px;
       padding-top: 20px;
+    }
+
+    .cardText {
+      background: #2d0f41;
+      padding: 12px;
+      color: white;
     }
 
     .contactpartnerslogo {
@@ -94,7 +100,7 @@
       }
 
       .contactpartnerslogo {
-        padding: 22px;
+        padding: 23px;
         background-color: whitesmoke;
       }
     }
