@@ -39,7 +39,7 @@ class Experience extends Component {
           </div>
           <div className="cardText">
             <div className="title">
-              Front-End Developer - Present
+              Front-End Developer: June 2016 - Present
             </div>
             <div className="text">
               I am currenty a front-end developer ar ContactPartners. I help build and support large applications which
