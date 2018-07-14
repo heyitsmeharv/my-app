@@ -126,24 +126,30 @@
     }
     .contactPartners {
       margin-top: 20px;
-      background-color: #2d0f41;
-      width: 50%;
+      width: 80%;
       height: 300px;
       display: flex;
       justify-content: centre;
 
-      .title {
-        font-size: 24px;
-        font-weight: bold;
-        display: flex;
-        justify-content: left;
-        padding-left: 20px;
-        padding-top: 20px;
+      .cardText {
+        background: #2d0f41;
+        padding: 12px;
+        color: white;
+        .title {
+          font-size: 25px;
+          font-weight: bold;
+          padding-left: 20px;
+          border-bottom: 8px solid white;
+        }
+        .text {
+          padding-top: 12px;
+          font-size: 12px;
+        }
       }
 
       .contactpartnerslogo {
-        padding: 23px;
         background-color: whitesmoke;
+        width: 70px;
       }
     }
   }
