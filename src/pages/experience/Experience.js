@@ -28,7 +28,7 @@ class Experience extends Component {
 
         <Card className="contactPartners">
           <div>
-            <a href="http://http://contactpartners.com/">
+            <a href="https://contactpartners.com/">
               <img className="contactpartnerslogo" alt="contactpartners" src={ContactPartnersLogo}/>
             </a>
             <div className="contactPartners-social-media-buttons">
