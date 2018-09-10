@@ -100,6 +100,7 @@
 .contact-me-button {
   background: #303f9f !important;
   color: white !important;
+  border: 2px solid;
   animation-name: contact-button;
   animation-duration: 2s;
 }
@@ -107,6 +108,7 @@
 .contact-me-button:hover {
   background: #a33830 !important;
   color: white !important;
+  border-radius: 1em;
 }
 
 @media screen and (max-width: 768px) {
@@ -153,9 +155,11 @@
   nav {
     button {
       background-color: whitesmoke;
+      border: 2px solid;
     }
     button:hover {
       background-color: #a33830;
+      border-radius: 1em;
     }
   }
 
