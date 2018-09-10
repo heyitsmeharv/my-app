@@ -32,8 +32,8 @@ class Experience extends Component {
               <img className="contactpartnerslogo" alt="contactpartners" src={ContactPartnersLogo}/>
             </a>
             <div className="contactPartners-social-media-buttons">
-              <Button className="contactPartners-social-media-twitter" href="https://twitter.com/ContactPartners" icon={<Icon.Twitter/>} floating />
-              <Button className="contactPartners-social-media-linkedIn" href="https://www.linkedin.com/company/contactpartners-ltd/" icon={<Icon.LinkedIn/>} floating />
+              <Button className="contactPartners-social-media-twitter" href="https://twitter.com/ContactPartners" target="_blank" icon={<Icon.Twitter/>} floating />
+              <Button className="contactPartners-social-media-linkedIn" href="https://www.linkedin.com/company/contactpartners-ltd/" target="_blank" icon={<Icon.LinkedIn/>} floating />
             </div>
           </div>
           <div className="cardText">
@@ -41,11 +41,11 @@ class Experience extends Component {
               Front-End Developer: June 2016 - Present
             </div>
             <div className="text">
-              I first joined ContactPartners as a support and development technician where my role mainly consisted of testing and assisting clients. 
+              I first joined ContactPartners as a support and development technician where my role mainly consisted of testing and assisting clients.
               I was tasked with researching and implementing an automated test system in which I explored the use of
               Selenium and various testing languages.
               <br/><br/>
-              Since then I have grown into more of a development role where my job consists of helping build and support complex applications which
+              Since then I have stepped into more of a development role where my job consists of helping build and support complex applications which
               aid large businesses, mainly banks, efficiency in communicating internally as well as with their clients.
             </div>
           </div>
