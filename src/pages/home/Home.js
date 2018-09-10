@@ -163,10 +163,9 @@ class Home extends Component {
               onOverlayClick={this.handleToggle}
               title='Contact Me'
             >
-            <p className="text">You can contact me via email or phone:</p>
             <p className="text">Email Address: heyitsmeharv@gmail.com</p>
             <p className="text">Phone Number: 07809 690 670</p>
-            <p className="text">Alternatively you can drop me a message via any of the social media buttons.</p>
+            <p className="text">Alternatively, you can drop me a message via any of the social media buttons.</p>
             </Dialog>
           </Button>
         </div>
