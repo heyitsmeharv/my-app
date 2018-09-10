@@ -3,7 +3,7 @@ import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import Dialog from 'react-toolbox/lib/dialog/Dialog';
 import * as Icon from '../../assets/icons';
-import Me from '../../assets/images/me.jpg';
+import Me from '../../assets/images/me3.jpg';
 import './styles.scss';
 import WebFont from 'webfontloader';
 
@@ -39,16 +39,16 @@ class Home extends Component {
     return (
       <div>
         <div className="social-media-buttons">
-          <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" icon={<Icon.Twitter/>} floating></Button>
-          <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" icon={<Icon.Facebook/>} floating />
+          <Button className="social-media-twitter" href="https://twitter.com/HeyItsMeHarv" target="_blank" icon={<Icon.Twitter/>} floating></Button>
+          <Button className="social-media-facebook" href="https://www.facebook.com/adam.harvey.73" target="_blank" icon={<Icon.Facebook/>} floating />
           <div className="tooltip">
             <Avatar className="avatar">
               <img className="image" alt="Me" src={Me}/>
             </Avatar>
             <span className="tooltiptext">Hey, it's me, Harv</span>
           </div>
-          <Button className="social-media-linkedIn" href="https://www.linkedin.com/in/adam-harvey-5b726a27/" icon={<Icon.LinkedIn/>} floating />
-          <Button className="social-media-gitHub" href="https://github.com/heyitsmeharv" icon={<Icon.GitHub/>} floating />
+          <Button className="social-media-linkedIn" href="https://www.linkedin.com/in/adam-harvey-5b726a27/" target="_blank" icon={<Icon.LinkedIn/>} floating />
+          <Button className="social-media-gitHub" href="https://github.com/heyitsmeharv" target="_blank" icon={<Icon.GitHub/>} floating />
         </div>
         <div className="paragraph">
           <span className="intro">
