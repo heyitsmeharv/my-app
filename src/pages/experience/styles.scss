@@ -5,7 +5,7 @@
   .university {
     background-color: #e20613;
     width: 50%;
-    height: 350px;
+    height: 100%;
     display: flex;
     .title {
       font-size: 24px;
@@ -28,7 +28,7 @@
   .contactPartners {
     background-color: #a078a5;
     width: 50%;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: centre;
 
@@ -106,7 +106,7 @@
       justify-content: center;
       background-color: #e20613;
       width: 50%;
-      height: 300px;
+      height: 100%;
       display: flex;
       .title {
         font-size: 24px;
@@ -127,7 +127,7 @@
     .contactPartners {
       margin-top: 20px;
       width: 80%;
-      height: 300px;
+      height: 100%;
       display: flex;
       justify-content: centre;
 
