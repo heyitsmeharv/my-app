@@ -104,6 +104,11 @@
   animation-duration: 2s;
 }
 
+.contact-me-button:hover {
+  background: #a33830 !important;
+  color: white !important;
+}
+
 @media screen and (max-width: 768px) {
   .avatar {
     width: 150px;
@@ -143,6 +148,15 @@
     color: black;
     font-weight: bold;
     padding: 10px;
+  }
+
+  nav {
+    button {
+      background-color: #303f9f;
+    }
+    button:hover {
+      background-color: #a33830;
+    }
   }
 
 }
