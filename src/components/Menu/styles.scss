@@ -5,6 +5,7 @@
 @media screen and (max-width: 480px) {
   .app-bar {
     display: inline-table;
+    padding: 0px;
   }
 }
 
@@ -22,7 +23,7 @@
     span {
       // margin-bottom: 8px;
     }
-    font-size: 1rem;
+    font-size: .7rem;
     color: #303f9f !important;
     float: right;
     svg {
