@@ -19,7 +19,7 @@ class Menu extends Component {
         },
         {
           text: 'Projects',
-          value: '/games',
+          value: '/projects',
           icon: <Icon.Games/>,
           isActive: false,
           tooltip: 'Projects',

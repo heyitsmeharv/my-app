@@ -42,7 +42,7 @@ class App extends Component {
             <Route render={props => <Menu {...props}/>}/>
             <Route exact path="/" render={props => <Home {...props} />}/>
             <Route exact path="/home" render={props => <Home {...props} />}/>
-            <Route exact path="/games" render={props => <Portfolio {...props} />}/>
+            <Route exact path="/projects" render={props => <Portfolio {...props} />}/>
             <Route exact path="/experience" render={props => <Experience {...props} />}/>
           </div>}/>
         </BrowserRouter>
