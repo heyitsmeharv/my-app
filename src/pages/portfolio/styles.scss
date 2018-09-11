@@ -53,4 +53,17 @@
 		width: 80%;
 	}
 
+	.text-long {
+		color: white;
+		font-size: 22px;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		width: 80%;
+	}
+
 }
