@@ -4,10 +4,14 @@
 	padding-top: 2%;
 
 	.row-one {
+		animation-name: row-one;
+		animation-duration: 2s;
 		display: inline-flex;
 	}
 
 	.row-two {
+		animation-name: row-two;
+		animation-duration: 2s;
 		display: inline-flex;
 	}
 
@@ -215,4 +219,14 @@
 			width: 80%;
 		}
 	}
+}
+
+@keyframes row-one {
+  from { transform: translateX(-3000px)}
+  to { transform: translateX(0)}
+}
+
+@keyframes row-two {
+  from { transform: translateX(3000px)}
+  to { transform: translateX(0)}
 }
