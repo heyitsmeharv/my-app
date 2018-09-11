@@ -6,6 +6,7 @@ import Fable from '../../assets/images/fable/fable.png'
 import BodyCount from '../../assets/images/bodycount/bodycount.png'
 import DirectX from '../../assets/images/directX/directx.png'
 import Thomas from '../../assets/images/thomas/game.png'
+import Zombie from '../../assets/images/zombie/zombie.gif';
 
 import './styles.scss';
 
@@ -62,6 +63,14 @@ class Portfolio extends Component {
         </div>
         <div className="images">
         <div className="row-two">
+        <div class="container">
+            <a><img className="image" alt=" Zombie" src={Zombie}/></a>
+            <div class="overlay">
+              <div className="header">Super Zombie Smash</div>
+              <div className="text">This is an ongoing joint project with a friend in Unity using C#.
+              </div>
+            </div>
+          </div>
         <div class="container">
             <img src={BodyCount} alt="Body Count" class="image"/>
             <div class="overlay">
