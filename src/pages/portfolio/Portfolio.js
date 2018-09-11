@@ -67,7 +67,7 @@ class Portfolio extends Component {
             <a><img className="image" alt=" Zombie" src={Zombie}/></a>
             <div class="overlay">
               <div className="header">Super Zombie Smash</div>
-              <div className="text">This is an ongoing joint project with a friend in Unity using C#.
+              <div className="text">This is an ongoing joint project with a friend in C++.
               </div>
             </div>
           </div>
