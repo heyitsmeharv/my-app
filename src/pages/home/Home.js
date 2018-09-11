@@ -31,13 +31,6 @@ class Home extends Component {
     this.setState({drawerActive: !this.state.drawerActive});
   };
 
-  calculateAge = () => {
-    var birthday = 27091993;
-    var ageDifMs = Date.now() - birthday.getTime();
-    var ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1993);
-  }
-
   actions = [
     { label: "Cancel", className: "contact-me-button-action", onClick: this.handleToggle },
   ];
@@ -59,7 +52,7 @@ class Home extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            I am a {this.calculateAge}24 year old aspiring software developer and enthusiastic problem solver. who started his programming career as a game developer
+            I am a 24 year old aspiring software developer and enthusiastic problem solver. who started his programming career as a game developer
             and has since ventured into the world of web development.
           </span>
           <br></br>
@@ -156,7 +149,7 @@ class Home extends Component {
             </div>
           </div>
           <br></br>
-            If you have any questions and want to contact me, hit the button below. 
+            If you have any questions and want to contact me, hit the button below.
         </div>
         <br></br>
         <br></br>
