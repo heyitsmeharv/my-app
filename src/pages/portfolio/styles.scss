@@ -1,6 +1,16 @@
 .images {
 	display: flex;
 	justify-content: center;
+	padding-top: 2%;
+
+	.row-one {
+		display: inline-flex;
+	}
+
+	.row-two {
+		display: inline-flex;
+	}
+
 	.container {
 		position: relative;
 	}
@@ -66,4 +76,140 @@
 		width: 80%;
 	}
 
+	.text-longer {
+		color: white;
+		font-size: 19px;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		width: 80%;
+	}
+
+	.text-longest {
+		color: white;
+		font-size: 18px;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.images {
+		display: flex;
+		justify-content: center;
+		padding-top: 2%;
+
+		.row-one {
+			display: flex;
+    	flex-direction: column;
+		}
+
+		.row-two {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container {
+			position: relative;
+		}
+
+		.image {
+			display: block;
+			width: 200px;
+			height: 200px;
+			padding-top: 5%;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 200px;
+			height: 200px;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: black;
+		}
+
+		.container:hover .overlay {
+			opacity: 0.8;
+		}
+
+		.header {
+			color: white;
+			font-size: 16px;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.text {
+			color: white;
+			font-size: 14px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+			width: 80%;
+		}
+
+		.text-long {
+			color: white;
+			font-size: 12px;
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+			width: 80%;
+		}
+
+		.text-longer {
+			color: white;
+			font-size: 11px;
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+			width: 80%;
+		}
+
+		.text-longest {
+			color: white;
+			font-size: 10px;
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+			width: 80%;
+		}
+	}
 }
