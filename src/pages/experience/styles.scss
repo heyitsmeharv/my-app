@@ -1,28 +1,71 @@
 .cardWrapper {
   display: flex;
   justify-content: center;
-  padding-top: 2%;  
+  padding-top: 2%;
+  flex-direction: column-reverse;
+  align-items: center;
+
   .university {
     background-color: #e20613;
     width: 50%;
     height: 100%;
     display: flex;
-    .title {
-      font-size: 24px;
-      font-weight: bold;
-      display: flex;
-      justify-content: left;
-      padding-left: 20px;
-      padding-top: 20px;
+    margin: 1%;
+
+    .cardText {
+      background: #e20613;
+      padding: 12px;
+      color: white;
+      .title {
+        font-size: 33px;
+        font-weight: bold;
+        padding-left: 20px;
+        border-bottom: 8px solid white;
+      }
+      .text {
+        padding-top: 12px;
+        font-size: 18px;
+
+        .topics {
+          padding: 10px;
+        }
+      }
     }
-    .university {
+
+    .solent-social-media-buttons {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 2%;
+      align-items: center;
+      .solent-social-media-twitter {
+        background-color: white !important;
+        margin-bottom: 10px;
+        span {
+          line-height: 60px !important;
+          svg {
+              fill: #e20613;
+            }
+          }
+        }
+
+    .solent-social-media-linkedIn {
+      background-color: white !important;
+      margin-bottom: 10px;
+      span {
+        line-height: 60px !important;
+        svg {
+            fill: #e20613;
+          }
+        }
+      }
+    }
+
+    .solentlogo {
       padding: 15px;
       background-color: white;
-      width: 150px;
-      height: 80px;
-    }
-    .cardText {
-      color: white;
+      width: 180px;
     }
   }
   .contactPartners {
@@ -31,6 +74,7 @@
     height: 100%;
     display: flex;
     justify-content: centre;
+    margin: 1%;
 
     .cardText {
       background: #2d0f41;
@@ -66,24 +110,13 @@
           }
         }
 
-      .contactPartners-social-media-linkedIn {
-        background-color:#0077B5 !important;
-        margin-bottom: 10px;
-        span {
-          line-height: 60px !important;
-          svg {
-              fill: white; 
-            }
-          }
-        }
-
-      .contactPartners-social-media-gitHub {
-        background-color: white !important;
-        top: 30px;
-        span {
-          line-height: 60px !important;
-          svg {
-            fill: black; 
+    .contactPartners-social-media-linkedIn {
+      background-color:#0077B5 !important;
+      margin-bottom: 10px;
+      span {
+        line-height: 60px !important;
+        svg {
+            fill: white; 
           }
         }
       }
@@ -99,29 +132,39 @@
 @media screen and (max-width: 480px) {
   .cardWrapper {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column-reverse;
     margin-top: 15px;
     .university {
-      justify-content: center;
-      background-color: #e20613;
-      width: 50%;
+      margin-top: 20px;
+      width: 80%;
       height: 100%;
       display: flex;
-      .title {
-        font-size: 24px;
-        font-weight: bold;
-        display: flex;
-        justify-content: left;
-        padding-left: 20px;
-        padding-top: 20px;
+      justify-content: centre;
+
+      .cardText {
+        background: #e20613;
+        padding: 12px;
+        color: white;
+        .title {
+          font-size: 25px;
+          font-weight: bold;
+          padding-left: 20px;
+          border-bottom: 8px solid white;
+        }
+        .text {
+          padding-top: 12px;
+          font-size: 12px;
+
+          .topics {
+            padding: 10px;
+          }
+        }
       }
-      .university {
-        justify-content: center;
+      .solentlogo {
         padding: 15px;
-        background-color: whitesmoke;
-        width: 195px;
-        height: 80px;
+        background-color: white;
+        width: 70px;
       }
     }
     .contactPartners {
