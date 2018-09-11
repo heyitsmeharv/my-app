@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Mcloud from '../../assets/images/gassymcloud.png'
-import CowHunter from '../../assets/images/cowhunter.png'
-import Tikki from '../../assets/images/tikki.png'
-import Fable from '../../assets/images/fable.png'
+import Mcloud from '../../assets/images/gassy/gassymcloud.png'
+import CowHunter from '../../assets/images/cowhunter/cowhunter.png'
+import Tikki from '../../assets/images/tikki/tikki.png'
+import Fable from '../../assets/images/fable/fable.png'
 
 import './styles.scss';
 

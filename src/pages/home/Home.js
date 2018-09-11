@@ -3,7 +3,7 @@ import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import Dialog from 'react-toolbox/lib/dialog/Dialog';
 import * as Icon from '../../assets/icons';
-import Me from '../../assets/images/me3.jpg';
+import Me from '../../assets/images/me/me3.jpg';
 import './styles.scss';
 import WebFont from 'webfontloader';
 

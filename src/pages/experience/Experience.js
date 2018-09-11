@@ -3,8 +3,8 @@ import Button from 'react-toolbox/lib/button/Button';
 import Card from 'react-toolbox/lib/card/Card';
 import * as Icon from '../../assets/icons';
 
-// import SouthamptonSolentLogo from '../../assets/images/solent-university-logo.png';
-import ContactPartnersLogo from '../../assets/images/cplogo.png';
+// import SouthamptonSolentLogo from '../../assets/images/solent/solent-university-logo.png';
+import ContactPartnersLogo from '../../assets/images/cp/cplogo.png';
 import './styles.scss';
 
 class Experience extends Component {
