@@ -33,7 +33,7 @@ class Home extends Component {
   };
 
   actions = [
-    { label: "Cancel", className: "contact-me-button-action", onClick: this.handleToggle },
+    { label: "Back", className: "contact-me-button-action", onClick: this.handleToggle },
   ];
 
   render() {

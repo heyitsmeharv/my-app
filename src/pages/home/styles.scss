@@ -147,10 +147,13 @@
   height: 340px !important;
   // background: linear-gradient(red, yellow);
   background: white;
+  h6 {
+  color: #303f9f;
+  }
   .text {
     font-family: 'Boogaloo', sans-serif;
     font-size: 20px;
-    color: black;
+    color: #303f9f;
     font-weight: bold;
     padding: 10px;
   }
