@@ -53,7 +53,7 @@ class Home extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            I am 25 years old and an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer
+            I am an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer
             and has since ventured into the world of web development.
           </span>
           <br></br>
