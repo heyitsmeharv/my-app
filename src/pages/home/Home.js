@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Avatar from 'react-toolbox/lib/avatar/Avatar';
 import Button from 'react-toolbox/lib/button/Button';
 import Dialog from 'react-toolbox/lib/dialog/Dialog';
-import AgeCalculator from '../../components/AgeCalculator/ageCalculator';
+// import AgeCalculator from '../../components/AgeCalculator/ageCalculator';
 import * as Icon from '../../assets/icons';
 import Me from '../../assets/images/me/me3.jpg';
 import './styles.scss';
@@ -53,7 +53,7 @@ class Home extends Component {
         </div>
         <div className="paragraph">
           <span className="intro">
-            I am {AgeCalculator(new Date("1993-09-27T12:00:00-00:00"))} years old and an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer
+            I am 25 years old and an aspiring software developer and enthusiastic problem solver who started his programming career as a game developer
             and has since ventured into the world of web development.
           </span>
           <br></br>

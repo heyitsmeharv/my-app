@@ -102,14 +102,14 @@
 
 .contact-me-button {
   background: #303f9f !important;
-  color: white !important;
+  // color: white !important;
   animation-name: contact-button;
   animation-duration: 2s;
 }
 
 .contact-me-button:hover {
   background: #a33830 !important;
-  color: white !important;
+  // color: white !important;
   border-radius: 1em;
 }
 
@@ -134,8 +134,8 @@
 
 .contact-me-button-action {
   font-family: 'Permanent Marker', sans-serif;
-  background: white !important;
-  color: black !important;
+  background: #303f9f !important;
+  color: whitesmoke !important;
   bottom: 20px;
   right: 4px;
 }
@@ -146,7 +146,7 @@
   width: 400px !important;
   height: 340px !important;
   // background: linear-gradient(red, yellow);
-  background: linear-gradient(white, #303f9f, black);
+  background: white;
   .text {
     font-family: 'Boogaloo', sans-serif;
     font-size: 20px;

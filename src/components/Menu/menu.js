@@ -66,7 +66,7 @@ class Menu extends Component {
                     className={[route.isActive ? 'isActive' : 'navButton'].join(' ')}
                     onClick={() => this.props.history.push(route.value)}
                     flat
-                    icon={route.icon}
+                    // icon={route.icon}
                     // tooltipPosition="bottom"
                     // tooltip={route.tooltip}
                   />
